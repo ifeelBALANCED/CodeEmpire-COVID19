@@ -36,7 +36,7 @@ export const ToastCountry: FC<ToastProps> = ({
 
     return (
         <Tr key={ID} onClick={callToast}>
-            <Td>{index}</Td>
+            <Td>{index + 1}</Td>
             <Td>{Country}</Td>
             <Td>{TotalConfirmed}</Td>
         </Tr>
